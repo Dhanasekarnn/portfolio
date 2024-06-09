@@ -12,6 +12,7 @@
 :root{
     --dark-primary: #1b1f24;
     --primary: #12bdff;
+    --dark-light: #8e8f8f;
 }
 
 body{
@@ -156,7 +157,7 @@ button.btn-header{
 .btn:hover{
     background-color: #12bcff85;
     cursor: pointer;
-    border: 1px solid white;
+    border: 1px solid black;
 }
 
 /* button2 */
@@ -224,5 +225,65 @@ button.btn-header{
 .about-section-cont a:hover{
     color: white;
     text-decoration: none;
+}
+
+/* Work section */
+
+
+
+.work-section{
+    background-color: var(--dark-primary);
+    color: white;
+    padding: 60px;
+    text-align: center;
+}
+
+.work-section-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.work-section-title span{
+    color: var(--primary);
+}
+
+.work-section-items{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.work-section-box{
+    background-color: var(--dark-light);
+    padding: 30px;
+    max-width: 300px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.work-section-box:hover{
+    background-color: var(--primary);
+    cursor: pointer;
+}
+.work-section-box p{
+    margin-top: 5px;
+    font-size: 14px;
+    color: var(--dark-primary);
+}
+
+.work-section-box a{
+    text-decoration: none;
+    color: black;
+    display: block; 
+    margin-top: 10px;
+}
+
+.work-section-box-icon{
+    background-color: var(--dark-primary);
+    padding: 5px 8px;
+    border-radius: 50px;
+    
+}
+.work-section-desc{
+    margin-top: 20px;
 }
 
