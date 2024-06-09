@@ -175,6 +175,54 @@ button.btn-header{
     cursor: pointer;
 }
 
+/* about me section */
+.about-section{
+    background-color: #22282f;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
+}
 
+/* about me image */
+.about-section img{
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    border: 2px solid var(--primary);
+    box-shadow: 1px 1px 20px var(--primary);
+
+}
+
+/* about me content */
+.about-section-cont h4{
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.about-section-cont ol{
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.about-section-cont li{
+    margin-bottom: 10px;
+    color: #8e8f8f;
+}
+
+.about-section-cont li strong{
+    color: white;
+}
+
+.about-section-cont a{
+    color: #8e8f8f;
+    text-decoration: none;
+}
+.about-section-cont a:hover{
+    color: white;
+    text-decoration: none;
+}
 
