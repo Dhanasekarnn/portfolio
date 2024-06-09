@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
     padding: 0;
@@ -6,6 +6,7 @@
     box-sizing: border-box;
    
 }
+
 
 /* Global variables */
 :root{
@@ -16,6 +17,7 @@
 body{
     font-family: "Poppins", sans-serif;
 }
+
 
 header{
     background-color: var(--dark-primary);
@@ -34,31 +36,96 @@ header .logo{
 }
 
 /* Header > nav */
-ul,li, a{
-    display: flex;
-    color: white;
-    text-decoration: none;
+header ul li{
     list-style: none;
     margin-right: 30px;
+   
+}
+header ul {
+    display: flex;
+    
 }
 
-ul li a:hover{
+header ul li  a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+header ul li a:hover{
     color: var(--primary);
 }
 
 /* Header > Button */
 
-header button{
-    padding: 10px 20px;
+button.btn{
+    padding: 10px;
     font-weight: 600;
     background-color: var(--dark-primary);
     border: 2px solid var(--primary);
     color: var(--primary);
-    border-radius: 5px;
-}
-header button:hover{
+    border-radius: 5px; */
+} 
+
+.btn:hover{
     background-color: var(--primary);
     color: var(--dark-primary);
     cursor: pointer;
     
+}
+
+/* Hero section */
+section.hero-section{
+    background-color: var(--dark-primary);
+    color: white;
+    display: flex;
+    align-items: center;
+    /* padding: 20px 120px 0 120px; */
+    justify-content: space-around;
+}
+
+/* hero sectio title and desc */
+.hero-section-title{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.hero-section p {
+    color: #8e8f8f;
+}
+
+/* social icon */
+
+.social-icons{
+    margin: 20px 0;
+
+}
+
+ul.social-icons{
+    list-style: none;
+    display: flex;
+}
+.social-icons li > a{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+
+}
+
+.social-icons li > a:hover{
+    color: var(--primary);
+}
+
+.social-icons li a > i.fa-facebook:hover{
+    color: #3b5998;
+}
+.social-icons li a > i.fa-linkedin:hover{
+    color: #0077B5;
+}
+.social-icons li a > i.fa-instagram:hover{
+    color: #feda75;
+}
+.social-icons li a > i.fa-twitter:hover{
+    color:  #1DA1F2;
 }
