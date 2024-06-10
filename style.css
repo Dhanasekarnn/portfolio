@@ -19,6 +19,10 @@ body{
     font-family: "Poppins", sans-serif;
 }
 
+textarea, input {
+    font-family: inherit;
+    font-size: inherit;
+ }
 
 header{
     background-color: var(--dark-primary);
@@ -287,3 +291,42 @@ button.btn-header{
     margin-top: 20px;
 }
 
+/* Contact CSS */
+.contact-section{
+    background-color: #22282f;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+
+.contact-section h4{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+.contact-section form div input , textarea{
+    padding: 10px;
+    border-radius:8px;
+    outline: none;
+    width: 350px;
+    background-color: var(--dark-primary);
+    border: none;
+    margin-bottom: 20px;
+    resize: none;
+    
+
+}
+
+.contact-section h4 span{
+    color: var(--primary);
+}
+
+/* footer */
+footer{
+    background-color: var(--dark-primary);
+    text-align: center;
+    color: var(--dark-light);
+    font-size: 16px;
+    padding: 30px;
+}
