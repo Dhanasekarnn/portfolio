@@ -19,6 +19,10 @@ body{
     font-family: "Poppins", sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 textarea, input {
     font-family: inherit;
     font-size: inherit;
@@ -329,4 +333,48 @@ footer{
     color: var(--dark-light);
     font-size: 16px;
     padding: 30px;
+}
+
+/* media queries */
+@media screen and (max-width: 600px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    header > *{
+        margin-bottom: 30px;
+    }
+
+    /* hero section */
+    section.hero-section{
+        flex-direction: column;
+        padding: 20px 50px ;
+    }
+
+    /* about section */
+    section.about-section{
+        flex-direction: column;
+
+    }
+    .about-section-cont{
+        margin-top: 50px;
+    }
+
+    .about-section-cont h4{
+        margin-left: 18px;
+
+    }
+    .about-section-cont ol{
+        margin-left: 20px;
+    }
+
+    .about-section-cont button{
+        margin-left: 20px;
+    }
+
+    /* my works */
+    .work-section-items{
+        flex-direction: column;
+        gap: 40px;
+    }
 }
