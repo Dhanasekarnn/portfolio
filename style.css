@@ -352,13 +352,16 @@ footer{
 
     /* hero section */
     section.hero-section{
+        margin-top: 200px;
         flex-direction: column;
         padding: 20px 50px ;
+        width: 100%;
     }
 
     /* about section */
     section.about-section{
         flex-direction: column;
+        width: 100%;
 
     }
     .about-section-cont{
@@ -381,8 +384,10 @@ footer{
     .work-section-items{
         flex-direction: column;
         gap: 40px;
+        width: 100%;
     }
 
+        /* contact */
     .contact-section form div input , textarea{
         width: 100%;
     }
