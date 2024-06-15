@@ -358,6 +358,10 @@ footer{
         width: 100%;
     }
 
+    section.hero-section img{
+        display: none;
+    }
+
     /* about section */
     section.about-section{
         flex-direction: column;
@@ -390,5 +394,6 @@ footer{
         /* contact */
     .contact-section form div input , textarea{
         width: 100%;
+
     }
 }
