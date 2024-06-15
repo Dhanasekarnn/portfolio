@@ -35,6 +35,10 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 /* header > logo */
@@ -68,6 +72,7 @@ header ul li a:hover{
 
 /* Hero section */
 section.hero-section{
+    margin-top: 40px;
     background-color: var(--dark-primary);
     color: white;
     display: flex;
@@ -376,5 +381,9 @@ footer{
     .work-section-items{
         flex-direction: column;
         gap: 40px;
+    }
+
+    .contact-section form div input , textarea{
+        width: 100%;
     }
 }
